@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Traductor_AQ</string>
+
+    <string name="aymara1">Anu</string>
+    <string name="quechua1">Allqo</string>
+
+    <string name="aymara2">Phisi</string>
+    <string name="quechua2">Michi</string>
+
+    <string name="aymara3">Achaku</string>
+    <string name="quechua3">hukucha</string>
+
+    <string name="aymara4">Huallpa</string>
+    <string name="quechua4">Huallpa</string>
+
+    <string name="aymara5">Challwa</string>
+    <string name="quechua5">Challwa</string>
+
+    <string name="aymara6">Khuchi</string>
+    <string name="quechua6">Khuchi</string>
+
+    <string name="aymara7">Hanpatu</string>
+    <string name="quechua7">Hanpatu</string>
+
+    <string name="aymara8">Chhichhillankha</string>
+    <string name="quechua8">Chuspi</string>
+
+    <string name="aymara9">Mallku</string>
+    <string name="quechua9">Kuntur</string>
+
+
+</resources>

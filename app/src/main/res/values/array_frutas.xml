@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="frutas">
+
+        <item> manzana </item>
+        <item> platanno </item>
+        <item> naranja </item>
+        <item> sandia </item>
+        <item> pera </item>
+        <item> mandarina </item>
+        <item> durazno </item>
+        <item> frutilla </item>
+        <item> lima </item>
+
+    </string-array>
+
+
+
+</resources>

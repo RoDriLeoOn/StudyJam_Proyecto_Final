@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diccionario Traductor"
+            android:textSize="25dp"
+            android:textColor="@color/colorTexto"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/img_p"
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img"
+            android:layout_marginTop="6dp"
+            android:background="@color/colorCabeza"/>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorCuerpo"
+
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/colorCuerpo1"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Castellano"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorTexto"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="aymara"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/colorTexto"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Quechua"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorTexto"
+                    android:textStyle="bold"
+
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <Button
+                    android:id="@+id/btn_diccionario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:onClick="diccionario"
+                    android:text="diccionario"
+                    android:textSize="20dp" />
+
+
+                <Button
+                    android:id="@+id/btn_conver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:text="Saludos"
+                    android:textSize="20dp"
+                    android:onClick="conver"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp">
+
+                <Button
+                    android:id="@+id/btn_animal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="animales"
+                    android:textSize="20dp"
+                    android:onClick="animal"/>
+
+
+                <Button
+                    android:id="@+id/btn_familia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="familia"
+                    android:onClick="familia"
+                    android:textSize="20dp"
+                    android:layout_marginEnd="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp">
+
+                <Button
+                    android:id="@+id/btn_cuerpo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="Cuerpo"
+                    android:textSize="20dp"
+                    android:onClick="cuerpo"/>
+
+
+                <Button
+                    android:id="@+id/btn_colores"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="colores"
+                    android:onClick="colores"
+                    android:textSize="20dp"
+                    android:layout_marginEnd="10dp"/>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp">
+
+            <Button
+                android:id="@+id/btn_numeros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="numeros"
+                android:onClick="numero"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/btn_salir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="salir"
+                android:onClick="salir"
+                android:textSize="20dp"
+                android:layout_marginEnd="10dp"
+                />
+
+    </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

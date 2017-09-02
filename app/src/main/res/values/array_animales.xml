@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animales">
+
+    <item> leon </item>
+    <item> perro </item>
+    <item> gato </item>
+    <item> pato </item>
+    <item> gallina </item>
+    <item> conejo </item>
+    <item> tigre </item>
+    <item> raton </item>
+    <item> pez </item>
+
+    </string-array>
+
+</resources>
